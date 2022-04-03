@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: "pip install pylint"
-      - run: "pylint /cw_praca_z_kodem/app.py"
+      - run: "pylint app.py"
 
