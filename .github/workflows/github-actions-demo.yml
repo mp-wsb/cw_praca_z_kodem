@@ -9,5 +9,6 @@ jobs:
   Job2:
     runs-on: ubuntu-latest
     steps:
+      - run: "pip install pylint"
       - run: "pylint app.py"
 
