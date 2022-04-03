@@ -6,3 +6,8 @@ jobs:
     steps:
       - run: "docker --version"
       - run: "python --version"
+  Job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "pylint app.py"
+
