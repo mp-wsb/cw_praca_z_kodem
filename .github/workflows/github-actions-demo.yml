@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - run: "pip install pylint"
       - run: "pylint app.py"
-  Job3
+  Job3:
     runs-on: ubuntu-latest
       - run: "docker build --tag test-flask-app ."
       
