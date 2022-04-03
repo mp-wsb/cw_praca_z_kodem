@@ -11,4 +11,6 @@ jobs:
     steps:
       - run: "pip install pylint"
       - run: "pylint app.py"
+      - name: Check out repository code
+        uses: actions/checkout@v3
 
